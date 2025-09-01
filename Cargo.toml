@@ -3,6 +3,13 @@ name = "rs-zips2meta2rbat2stream"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the metadata of the zip files to a record batch."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-zips2meta2rbat2stream"
+homepage = "https://github.com/takanoriyanagitani/rs-zips2meta2rbat2stream"
+documentation = "https://docs.rs/rs-zips2meta2rbat2stream/latest"
+keywords = ["zip", "metadata", "record-batch", "arrow", "stream"]
+
 [dependencies.futures]
 version = "0"
 default-features = false
