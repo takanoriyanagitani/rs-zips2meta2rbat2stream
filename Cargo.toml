@@ -1,0 +1,41 @@
+[package]
+name = "rs-zips2meta2rbat2stream"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.futures]
+version = "0"
+default-features = false
+features = [
+	"async-await",
+	"executor",
+	"std",
+]
+
+
+[dependencies.arrow]
+version = "56"
+default-features = false
+features = [
+]
+
+[dependencies.async-stream]
+version = "0"
+default-features = false
+features = [
+]
+
+[dependencies.zip]
+version = "4"
+default-features = false
+features = [
+	"chrono",
+	"deflate",
+]
+
+[dependencies.rs-zip2meta2rbat]
+version = "0"
+default-features = false
+features = [
+	"szip",
+]
