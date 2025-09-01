@@ -1,0 +1,15 @@
+[package]
+name = "zips2meta2rbat2stream"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.tokio]
+version = "1"
+default-features = false
+features = [
+	"macros",
+	"rt-multi-thread",
+]
+
+[dependencies.rs-zips2meta2rbat2stream]
+path = "../.."
